@@ -37,7 +37,56 @@
             #section-home div:first-child{
                 padding: 20px;
             }
+        
+            .two-project{
+                display:flex;
+            }
+
+                .two-project img {
+                    height: 300px;
+                }
+
+            .two-project > div {
+
+                width: 50%;
+                border: 2px solid black;
+                padding: 20px;
+                border-radius: 15px;
+
+            }
+        .two-project div:first-child{
+            background-color: #ecebfd;
+            margin-right: 10px;
         }
+        .two-project div:last-child{
+         background-color: #2d3542;
+         margin-left: 10px;
+         color: white;
+        }
+        .third-project{
+            border-radius: 15px;
+            margin: 20px 0px;
+            padding: 20px;
+            border: 20px;
+            background-image: linear-gradient(to bottom right, blue
+            ,black);
+            
+        }
+        .third-project img{
+        height:400px;}
+
+
+
+
+        #section-contact{
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        padding: 20px;
+        background-image: linear-gradient(to top right,white,black);
+        }
+
+        
     </style>
 </head>
 <body>
@@ -65,10 +114,59 @@
             <!--my image-->
             <h1>Welcome To Software World</h1>
             <p>I care  a lot about crafting </p>
+        
+    
+           
         </div>
         <div>
             <img src="images/software.jpg" alt="">
         </div>
     </section>
+    <section id ="section-project">
+        <!-- fisrt two project-->
+    <div class="two-project">
+            <div>
+                <h1>
+                    payment
+                </h1>
+                <p>
+                    personal finance mobile</p>
+                    <img src="images/paymento.png" alt="">
+
+            </div>
+            <div>
+                <h1>taskit</h1>
+                <p>task management app</p>
+                <img src="images/taskit.png"alt="">
+            </div>
+            
+        </div>
+                <!--third project-->
+    <div class="third-project">
+            
+            <h1>piyuu</h1>
+           <p>freelancing platform for individuals 
+           </p>  
+           <img src="images/piyuu.png"alt="">
+
+        </div>
+    </section>
+    <section id="section-contact" >
+    <div>
+        <!--how to connect-->
+        <h1>want to work together</h1>
+        
+        <p>feel free to out for collaboration or a freaindly hell</p>
+        <a href="mailto:sk6938464@gmail.com">suraj kumar</a>
+    </div>
+    <div>
+        <!--connection link-->
+        <h2>Contact</h2>
+        <div>
+            <a href=""><img src="images/linkedin.png" alt=""></a>
+            <a href=""><img src="images/twitter.png" alt=""></a>
+        </div>
+    </div>
+</section>
 </body>
 </html>
